@@ -3,6 +3,9 @@
 -- fpm.package: fifthtry.github.io/roboto-mono
 zip: github.com/fifthtry/roboto-mono/archive/refs/heads/main.zip
 
+-- fpm.dependency: fifthtry.github.io/package-doc
+
+
 
 -- fpm.font: Roboto Mono
 style: italic
