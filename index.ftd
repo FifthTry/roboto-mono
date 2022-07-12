@@ -18,13 +18,13 @@ height: fill
 -- pd.package: Roboto Mono - fpm font
 name: fifthtry.github.io/roboto-mono
 
-This component consist of Google Roboto font with all it's styles from Thin-100 to Black-900 Italic.
+This component consist of Google Roboto font with all it's styles from Thin-100 to Bold-700 Italic.
 
 
--- pd.component: Roboto - fpm font
+-- pd.component: Roboto Mono - fpm font
 name: https://github.com/FifthTry/roboto-mono
 
-This component consist of Google Roboto Mono font with all it's styles from Thin-100 to Black-900 Italic.
+This component consist of Google Roboto Mono font with all it's styles from Thin-100 to Bold-700 Italic.
 
 
 
@@ -34,7 +34,7 @@ include fifthtry.github.io/roboto-mono package into FPM.ftd file
 
 \-- fpm.dependency: fifthtry.github.io/roboto-mono
 
-\-- fpm.auto-import: fifthtry.github.io/roboto-mono as mono
+\-- fpm.auto-import: fifthtry.github.io/roboto-mono
 
 Inside your .ftd file to change for any specific token use:
 
