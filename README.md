@@ -1,6 +1,6 @@
 # Roboto Mono Font
 
-`fifthtry.github.io/roboto-mono` is a wrapper over [Roboto Mono font](https://github.com/googlefonts/RobotoMono).
+[`fifthtry.github.io/roboto-mono`](https://fifthtry.github.io/roboto-mono) is a wrapper over [Roboto Mono font](https://github.com/googlefonts/RobotoMono).
 
 # How To Use This Font
 
