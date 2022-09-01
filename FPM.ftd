@@ -2,7 +2,7 @@
 
 -- fpm.package: fifthtry.github.io/roboto-mono
 zip: github.com/fifthtry/roboto-mono/archive/refs/heads/main.zip
-base: https://raw.githubusercontent.com/fifthtry/roboto-mono/main
+download-base-urlbase: https://raw.githubusercontent.com/fifthtry/roboto-mono/main
 
 -- fpm.dependency: fifthtry.github.io/package-doc
 
