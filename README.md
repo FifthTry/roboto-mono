@@ -1,9 +1,53 @@
-# Roboto Mono Font
+# Roboto Mono: FPM Font Package
 
-[`fifthtry.github.io/roboto-mono`](https://fifthtry.github.io/roboto-mono) is a wrapper over [Roboto Mono font](https://github.com/googlefonts/RobotoMono).
+This repository contains a [fpm font package](https://fpm.dev/featured/fonts/) containing [Google Font: 
+Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono/about?query=roboto).
 
-[How to Use fonts](https://fpm.dev/how-to/how-to-use-fonts/).
+Roboto Mono is a monospaced addition to the Roboto type family. Like the other 
+members of the Roboto family, the fonts are optimized for readability on screens
+across a wide variety of devices and reading environments. 
 
-# License
+Designers: Christian Robertson, Principal design
 
-[Roboto Mono is distributed under  Apache License Version 2.0, January 2004](http://www.apache.org/licenses/). We use the same license to be compatible with them.
+## How To Use This Font In Your FPM Package:
+
+[Read the docs and demo](https://fifthtry.github.io/roboto-mono).
+
+TLRD:
+
+Include fifthtry.github.io/roboto package into `FPM.ftd` file:
+
+```ftd
+;-- fpm.dependency: fifthtry.github.io/roboto-mono
+```
+
+Inside your `FPM/config.ftd` use the font:
+
+```ftd
+;-- import: fifthtry.github.io/roboto-mono
+
+;-- fpm.type.headline-small: $roboto-mono.fonts.Roboto
+```
+
+Now if in any file you do:
+
+```ftd
+;-- ftd.text:
+role: $fpm.type.headline-small
+```
+
+You will see the `roboto-mono` font.
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://fpm.dev/) or jump into our [FifthTry Discord 
+server](https://discord.gg/bucrdvptYd).
+
+## License
+
+Since Arya Font is under [Open Font Licence](https://fonts.google.com/specimen/Roboto+Mono/about?query=roboto), this FPM wrapper is also
+under [Open Font License](LICENSE).
+
+
+
+
