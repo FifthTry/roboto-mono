@@ -3,11 +3,11 @@
 This repository contains a [fpm font package](https://fpm.dev/featured/fonts/) containing [Google Font: 
 Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono/about?query=roboto).
 
-Arya is a Devanagari and Latin type family. It originated with Modular InfoTech's 1201, and was made more smooth. The 
-new and original Latin design is intended to match the Devanagari in weight and and size with an unusual high-contrast 
-sans serif design.
+Roboto Mono is a monospaced addition to the Roboto type family. Like the other 
+members of the Roboto family, the fonts are optimized for readability on screens
+across a wide variety of devices and reading environments. 
 
-Designers: Eduardo Tunni, Principal design
+Designers: Christian Robertson, Principal design
 
 ## How To Use This Font In Your FPM Package:
 
