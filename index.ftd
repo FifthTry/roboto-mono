@@ -1,4 +1,8 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
+-- import: fifthtry.github.io/package-doc/typography as tf
+-- import: fifthtry.github.io/roboto-mono/assets as mono-assets
+-- import: fpm
+
 -- import: fpm
 
 
@@ -7,13 +11,36 @@
 -- is-mobile: true
 if: $ftd.device == mobile
 
+
+-- ftd.font-size mono-demo:
+line-height: 36
+size: 22
+letter-spacing: 0
+
+-- ftd.font-size mono-demo-heading:
+line-height: 56
+size: 48
+letter-spacing: 0
+
+-- ftd.type roboto-font: $mono-assets.fonts.Mono
+desktop: $mono-demo
+mobile: $mono-demo
+xl: $mono-demo
+weight: 400
+
+-- ftd.type roboto-font-heading: $mono-assets.fonts.Mono
+desktop: $mono-demo-heading
+mobile: $mono-demo-heading
+xl: $mono-demo-heading
+weight: 400
+
+
 -- ftd.column:
 width: fill
 padding-horizontal: 50
 padding-horizontal if $is-mobile: 20
 background-color: $fpm.color.main.background.base
-height: fill
-
+id: parent
 
 -- pd.package: Roboto Mono - fpm font
 name: fifthtry.github.io/roboto-mono
@@ -38,8 +65,68 @@ include fifthtry.github.io/roboto-mono package into FPM.ftd file
 
 Inside your .ftd file to change for any specific token use:
 
-\-- fpm.type.headline-small.font: $inter.fonts.roboto-mono
+\-- fpm.type.headline-small.font: $roboto-mono.fonts.Mono
 
 \-- ftd.text:
 role: $fpm.type.headline-small
 
+
+
+-- container: parent
+
+
+-- tf.h2: `roboto-font` regular 18px:
+
+-- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.  
+role: $roboto-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: regular
+
+-- tf.h2: `roboto-font` regular strike through 18px:
+
+-- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
+role: $roboto-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: regular strike
+
+-- tf.h2: `roboto-font` regular underline 18px:
+
+-- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
+role: $roboto-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: regular underline
+
+-- tf.h2: `roboto-font` regular italic 18px:
+
+-- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
+role: $roboto-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: regular italic
+
+-- tf.h2: `roboto-font` bold 18px:
+
+-- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
+role: $roboto-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: bold
+
+-- tf.h2: `roboto-font` bold italic 18px:
+
+-- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
+role: $roboto-font
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-6
+style: bold italic
+
+-- tf.h2: `roboto-font` heading regular 48px:
+
+-- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
+role: $roboto-font-heading
+color: $fpm.color.main.text-strong
+margin-bottom: $fpm.space.space-10
+style: regular
