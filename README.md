@@ -45,8 +45,8 @@ server](https://discord.gg/bucrdvptYd).
 
 ## License
 
-Since Arya Font is under [Open Font Licence](https://fonts.google.com/specimen/Roboto+Mono/about?query=roboto), this FPM wrapper is also
-under [Open Font License](LICENSE).
+Since Roboto Mono Font is under [Apache License](https://fonts.google.com/specimen/Roboto+Mono/about?query=roboto), this FPM wrapper is also
+under [Apache License](LICENSE).
 
 
 
