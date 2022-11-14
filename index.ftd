@@ -60,9 +60,9 @@ This component consist of Google Roboto Mono font with all it's styles from Thin
 
 include fifthtry.github.io/roboto-mono package into FPM.ftd file
 
-\-- fpm.dependency: fifthtry.github.io/roboto-mono
+\-- fpm.dependency: fifthtry.github.io/roboto-mono/assets as roboto-mono
 
-\-- fpm.auto-import: fifthtry.github.io/roboto-mono
+\-- fpm.auto-import: roboto-mono
 
 Inside your .ftd file to change for any specific token use:
 

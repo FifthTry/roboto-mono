@@ -15,7 +15,7 @@ Designers: Christian Robertson, Principal design
 
 TLRD:
 
-Include fifthtry.github.io/roboto package into `FPM.ftd` file:
+Include fifthtry.github.io/roboto-mono package into `FPM.ftd` file:
 
 ```ftd
 ;-- fpm.dependency: fifthtry.github.io/roboto-mono
@@ -24,7 +24,7 @@ Include fifthtry.github.io/roboto package into `FPM.ftd` file:
 Inside your `FPM/config.ftd` use the font:
 
 ```ftd
-;-- import: fifthtry.github.io/roboto-mono
+;-- import: fifthtry.github.io/roboto-mono/assets as roboto-mono
 
 ;-- fpm.type.headline-small: $roboto-mono.fonts.Roboto
 ```
